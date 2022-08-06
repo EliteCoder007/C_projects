@@ -61,7 +61,7 @@ int main(){
     scanf("%c", &you);
 
     int result = rockPaperScessiors(you, comp);
-    printf("You chose %c and computer chose %c.\n", you , comp);
+   
     if(result == 0){
         printf("Game draw!\n");
     }
@@ -71,6 +71,6 @@ int main(){
     else{
         printf("You lose!\n");
     }
-    
+     printf("You chose %c and computer chose %c.\n", you , comp);
     return 0;
 }
